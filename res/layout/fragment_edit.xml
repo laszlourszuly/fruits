@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/image"
+        android:text="@string/label_title"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:id="@+id/label_title" />
+    
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/label_title"
+        android:textIsSelectable="false"
+        android:inputType="text"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:id="@+id/title" />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/label_description"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:id="@+id/label_description" />
+    
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/label_description"
+        android:textIsSelectable="false"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top|left"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:id="@+id/description" />
+
+</RelativeLayout>

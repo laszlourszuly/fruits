@@ -1,0 +1,40 @@
+{
+	"fruit" : [
+		{
+			"id": 1,
+			"name": "Apple",
+			"description": "The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family (Rosaceae). It is one of the most widely cultivated tree fruits, and the most widely known of the many members of genus Malus that are used by humans.",
+			"image": "file://apple.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Orange",
+			"description": "The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus ​sinensis in the family Rutaceae. The fruit of the Citrus sinensis is called sweet orange to distinguish it from that of the Citrus aurantium, the bitter orange.",
+			"image": "file://orange.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Banana",
+			"description": "A banana is an edible fruit produced by several kinds of large herbaceous flowering plants of the genus Musa. (In some countries, bananas used for cooking may be called plantains.) The fruit is variable in size, color and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind which may be yellow, purple or red when ripe.",
+			"image": "file://banana.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Kiwi",
+			"description": "The most common cultivar group of kiwifruit ('Hayward') is oval, about the size of a large hen's egg (5–8 centimetres (2.0–3.1 in) in length and 4.5–5.5 centimetres (1.8–2.2 in) in diameter). It has a fibrous, dull greenish-brown skin and bright green or golden flesh with rows of tiny, black, edible seeds.",
+			"image": "file://kiwi.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Watermelon",
+			"description": "Watermelon (Citrullus lanatus (Thunb.), family Cucurbitaceae) is a vine-like (scrambler and trailer) flowering plant originally from southern Africa. Its fruit, which is also called watermelon, is a special kind referred to by botanists as a pepo, a berry which has a thick rind (exocarp) and fleshy center (mesocarp and endocarp).",
+			"image": "file://watermelon.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Cherry",
+			"description": "The cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). The cherry fruits of commerce are usually obtained from a limited number of species, including especially cultivars of the sweet cherry, Prunus avium. The name 'cherry' also refers to the cherry tree.",
+			"image": "file://cherry.jpg"
+		}
+	]
+}
